@@ -1,0 +1,13 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    border: 2px solid red;
+    /* padding: 10px; */
+}
+.col-sm-6{
+    /* border: 2px solid red; */
+    /* margin-right: 2px; */
+}

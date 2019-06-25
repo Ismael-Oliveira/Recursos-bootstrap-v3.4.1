@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap-theme.min.css">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script   src="https://code.jquery.com/jquery-3.4.1.min.js"> </script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="container">
+<!-- ###################################### MENU  ################################################################# -->
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a href="#" class="navbar-brand">Brand</a>
+                </div>
+            
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="">Home</a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="" class="dropdown-toggle" data-toggle="dropdown">Empresa <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="">Estrutura</a></li>
+                            <li><a href="">Cultura</a></li>
+                            <li><a href="">Carreira</a></li>
+                        </ul>       
+                    </li>
+                    <li>
+                        <a href="">Contato</a>
+                    </li>
+                </ul>
+
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a  href="">Sair</a>
+                    </li>
+                </ul>
+
+                <form class="navbar-form navbar-right">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search">
+                    </div>
+                    <button type="submit" class="btn btn-default">Submit</button>
+                </form>
+            
+            </div>
+        </nav>
+
+<!-- ############################################################################################################ -->        
+        <hr style="margin-top:50px">
+
+        <h1>Test Bootstrap <small>Primeiro sistema</small></h1>
+        <div class="btn-group btn-group-justified">
+            <a class="btn btn-primary">Micorsoft</a>
+            <a class="btn btn-primary">Apple</a>
+            <a class="btn btn-primary">Linux</a>
+        </div>
+        <hr>
+        <div class="btn btn-group">
+                <a class="btn btn-primary">Micorsoft</a>
+                <a class="btn btn-primary">Apple</a>
+                <a class="btn btn-primary">Linux</a> 
+        </div>       
+        <hr>
+<!-- ####################################   DROPDDOWN BUTTON       ################################################################## -->
+        <div class="btn-group">
+           <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+               Linguagens <span class="caret"></span>
+           </button>
+           <ul class="dropdown-menu">
+               <li role="separator" class="divider"></li>
+               <li class="dropdown-header">Linguagens front-end</li>
+               <li><a href="">HTML</a></li>
+               <li class="disabled"><a href="">CSS</a></li>
+               <li role="separator" class="divider"></li>
+               <li><a href="">PHP</a></li>
+               <li><a href="">Java Script</a></li>
+   
+           </ul> 
+        </div>
+
+        <hr>
+
+<!-- ############################################################################################################ -->
+        <div class="alert alert-warning alert-dismissible fade in" role="alert">
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            <strong>Warning!</strong> Better check yourself, you're not looking too good.
+        </div>
+
+        <hr>
+        <button class="btn btn-primary">Acessos <span class="badge">3</span></button>
+        <h4>Aualização <span class="label label-success">Em breve</span></h4>
+
+        <hr>
+
+<!-- #####################################    PANEL            ############################################################# -->
+
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="panel panel-success">
+                    <div class="panel-heading">Esportes</div>
+                    <div class="panel-body">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                         Quae aperiam consequuntur vero reiciendis ut! Quo, sequi? Sint asperiores aliquam tenetur facilis!
+                         Corporis sit maxime ratione cumque labore numquam facere qui.
+                    </div>
+                </div>
+                
+            </div>
+            <div class="col-sm-6">
+                <div class="panel panel-danger">
+                    <div class="panel-heading">Politica </div>
+                    <div class="panel-body">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Quae aperiam consequuntur vero reiciendis ut! Quo, sequi? Sint asperiores aliquam tenetur facilis!
+                            Corporis sit maxime ratione cumque labore numquam facere qui.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <hr>
+
+<!-- ############################################################################################################ -->
+        <a class="btn btn-primary" role="button" data-toggle="collapse" href="#teste">
+        Link with href
+        </a>
+        <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#teste">
+        Button with data-target
+        </button>
+        <div class="collapse" id="teste">
+            <div class="well">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Quae aperiam consequuntur vero reiciendis ut! Quo, sequi? Sint asperiores aliquam tenetur facilis!
+                Corporis sit maxime ratione cumque labore numquam facere qui.
+            </div>
+        </div>
+        
+        <hr>
+
+<!-- ############################################################################################################ -->
+        <ul class="list-group list-group-justified" >
+            <a href="" class="list-group-item active">item 1</a>
+            <a href="" class="list-group-item list-group-item-warning">item 2</a>
+            <a href="" class="list-group-item">item 3</a>
+            <a href="" class="list-group-item">item 4</a>
+            <a href="" class="list-group-item">item 5</a>
+        </ul>
+
+<!-- ############################################################################################################ -->
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+            Launch demo modal
+        </button>
+        
+        <!-- Modal -->
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog">
+            <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                </div>
+                <div class="modal-body">
+                ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+            </div>
+        </div>        
+
+    </div>
+
+
+
+</body>
+</html>
